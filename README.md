@@ -1,4 +1,4 @@
 # aluraportafolio
 
 
-<a href="https://github.com/karlavnny/aluraportafolio.git">Visualiza mi repositorio</a>
+<a href="https://karlavnny.github.io/aluraportafolio/">Visualiza mi repositorio</a>
