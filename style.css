@@ -13,7 +13,7 @@ ol, ul,li {
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #9a3aba;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -47,8 +47,13 @@ section header {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 16px;
-    color: #464646;
+    color: #9a3aba;
     }
+
+    .bio {
+        color: white;
+    }
+
 
 /*Sessão Title*/
 
@@ -61,7 +66,7 @@ section header {
    }
 
    section.menu nav li{
-       font-size: 14px;
+       font-size: 16px;
        font-weight: 400;
 
    }
@@ -86,9 +91,13 @@ section header {
         font-size: 14px;
     }
 
-    section.title img.profile{
-        width: 20%;
-    }
+    section.title img.profile
+{
+    width:200px;
+    height:370px;
+    border-radius:800px;
+    border:5px solid #9a3aba;
+}
 
     .section-title{
         font-weight: 700;
@@ -100,18 +109,20 @@ section header {
 /*About*/
 
 section.about{
+    width: 1300px;
+    height: 150px;
     background-color: #fdeafa;
 }
 
 
 section.about div.about-container p{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 19px;
+    line-height: 30px;
 }
 
 section.about div.about-container img{
-    margin: 16px;
+    margin: 10px;
 }
 
 /*Skill*/
