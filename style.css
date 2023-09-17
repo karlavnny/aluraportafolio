@@ -24,12 +24,15 @@ textarea:focus, input:focus, select:focus {
 
 
 /*Mobile First*/
+@media only screen and (max-width: 767px) {
+
 .todo{
     margin: 0 16px 0 16px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
+
 
 /*Sessão Menu*/
 
@@ -176,7 +179,7 @@ section.about div.about-container img{
         padding: 0;
 
     }
-
+}
 /* Experiencia Academica*/
 
     section.academic{
