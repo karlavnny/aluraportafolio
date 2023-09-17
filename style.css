@@ -24,7 +24,7 @@ textarea:focus, input:focus, select:focus {
 
 
 /*Mobile First*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 567px) {
 
 .todo{
     margin: 0 16px 0 16px;
