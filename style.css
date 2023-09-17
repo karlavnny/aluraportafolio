@@ -443,7 +443,7 @@ section.footer div.rodapie{
 
 }
 
-@media (min-width: 1000px) {
+@media only screen and (max-width: 767px) {
 
 /*main*/
 
@@ -608,7 +608,7 @@ section.footer div.rodapie{
     }
 }
 
-@media (min-width: 1440px) {
+@media only screen and (max-width: 767px) {
 
     div.about-container{
 
