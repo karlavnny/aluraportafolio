@@ -23,9 +23,8 @@ textarea:focus, input:focus, select:focus {
 } 
 
 
-/*Mobile First*/
-@media only screen and (max-width: 567px) {
 
+/*Mobile First*/
 .todo{
     margin: 0 16px 0 16px;
     display: flex;
@@ -56,58 +55,56 @@ section header {
     .bio {
         color: white;
     }
-
-
 /*Sessão Title*/
 
-    section header h3.menu-title{
-        margin-left: 8px;
-    }
-
-    section.menu nav ul.menu-list{
-       display: none;
-   }
-
-   section.menu nav li{
-       font-size: 16px;
-       font-weight: 400;
-
-   }
-
-    section.title div.title-div div.title-container h2{ 
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 26px;
-    }
-    section.title div.title-div div.title-container h3{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    section.title div.title-div div.title-container ul{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 0;
-        font-size: 14px;
-    }
-
-    section.title img.profile
-{
-    width:200px;
-    height:370px;
-    border-radius:800px;
-    border:5px solid #9a3aba;
+section header h3.menu-title{
+    margin-left: 8px;
 }
 
-    .section-title{
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
-        text-align: center;
-    }
+section.menu nav ul.menu-list{
+   display: none;
+}
+
+section.menu nav li{
+   font-size: 16px;
+   font-weight: 400;
+
+}
+
+section.title div.title-div div.title-container h2{ 
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+section.title div.title-div div.title-container h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+section.title div.title-div div.title-container ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
+}
+
+section.title img.profile
+{
+width:200px;
+height:370px;
+border-radius:800px;
+border:5px solid #9a3aba;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
 
 /*About*/
 
@@ -179,7 +176,7 @@ section.about div.about-container img{
         padding: 0;
 
     }
-}
+
 /* Experiencia Academica*/
 
     section.academic{
@@ -189,11 +186,11 @@ section.about div.about-container img{
         section.academic div.courses{
             margin: 0 auto;
             text-align: center;
-
+            
         }
 
         section.academic div.courses ul{
-
+            
             margin: 0;
             padding: 0;
 
@@ -299,7 +296,7 @@ section.form-contacto{
         font-weight: 700;
         font-size: 22px;
         padding: 10px;
-
+       
     }
 
     section.form-contacto form{
@@ -320,7 +317,7 @@ section.form-contacto{
          color:#464646; 
          font-family: 'Raleway';
     }
-
+    
     section.form-contacto form input:focus{
         border-bottom: solid 2px #2A7AE4;
     }
@@ -366,13 +363,13 @@ section.footer div.rodapie{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-
+    
 }
 
-@media only screen and (max-width: 567px){
+@media (max-width: 699){
 }
 
-@media only screen and (max-width: 567px) {
+@media (min-width: 700px) {
 
     .todo{
         margin: 32px 32px;
@@ -388,10 +385,10 @@ section.footer div.rodapie{
         display: flex;
         flex-direction: row-reverse;
     }
-
+     
     div.title-container{
         width: 524px;
-
+       
     }
     section.title img.profile {
         width: 157px;
@@ -401,7 +398,7 @@ section.footer div.rodapie{
 
     section.skills div.skills-line{
         width: 100%;
-
+        
     }
     section.skills div.skills-line div.skills-box {
         margin: 22px 12px 10px 0px;
@@ -446,172 +443,172 @@ section.footer div.rodapie{
 
 }
 
-@media only screen and (max-width: 567px) {
+@media (min-width: 1000px) {
 
 /*main*/
 
-    .section-title {
-        font-size: 32px;
-    }
+.section-title {
+    font-size: 32px;
+}
 
 /*Menu*/
 
-    section.menu nav ul.menu-list {
-        display: flex;
-        justify-content: space-between;
-        font-size: 16px;
-        width: 600px;
-    }
+section.menu nav ul.menu-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 600px;
+}
 
-    section.title div.title-div div.title-container h2 {
-        font-size: 52px;
-        font-weight: 700;
-        line-height: 50px;
-    }
+section.title div.title-div div.title-container h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 50px;
+}
 
-    section.menu nav li.menu-list-item-c {
-        display: none;
-    }
+section.menu nav li.menu-list-item-c {
+    display: none;
+}
 
-    div.title-container{
-        width: 751px;
+div.title-container{
+    width: 751px;
 
-    }
-    section.title img.profile {
-        width: 368px;
+}
+section.title img.profile {
+    width: 368px;
 
-    }
-    section.title div.title-div div.title-container ul {
-        display: flex;
-        margin-left: -65px;
-        align-items: center;
-        padding: 0px;
-        font-size: 16px;
-    }
+}
+section.title div.title-div div.title-container ul {
+    display: flex;
+    margin-left: -65px;
+    align-items: center;
+    padding: 0px;
+    font-size: 16px;
+}
 
-    section.title div.title-div div.title-container h3 {
-        font-size: 17px;
-        line-height: 23px;
-    }
-
+section.title div.title-div div.title-container h3 {
+    font-size: 17px;
+    line-height: 23px;
+}
 /*about*/
 
-    section.about{
-        padding: 62px 50px;
-    }
-    div.about-container{
+section.about{
+    padding: 62px 50px;
+}
+div.about-container{
 
-        height: 255px;
-    }
+    height: 255px;
+}
 
 /*Skills*/
 
-    section.skills div.skills-line{
-        width: 100%;
+section.skills div.skills-line{
+    width: 100%;
 
-    }
-    section.skills div.skills-line div.skills-box {
-        margin: 22px 15px 22px 0px;
-        width: 108px;
-        height: 118px;
-    }
+}
+section.skills div.skills-line div.skills-box {
+    margin: 22px 15px 22px 0px;
+    width: 108px;
+    height: 118px;
+}
 
 /*Hobbies*/
 
-    section.hobbies-section div.hobbies-line{
-        width: 100%;
+section.hobbies-section div.hobbies-line{
+    width: 100%;
+}
+
+section.hobbies-section div.hobbies-line div.hobbies-box {
+    margin: 22px 15px 22px 0px;
+    width: 108px;
+    height: 108px;
     }
-
-    section.hobbies-section div.hobbies-line div.hobbies-box {
-        margin: 22px 15px 22px 0px;
-        width: 108px;
-        height: 108px;
-        }
-
+ 
 /*Formacion Academica*/
 
-    section.academic div.courses-box{ 
-        width: 380px;
+section.academic div.courses-box{ 
+    width: 380px;
 
-    }
-    section.academic div.courses ul li.course-img img{
-        width: 70%;
-    }
-    section.academic div.courses ul li.course-img{
-       padding: 30px 30px;
-    }
+}
+section.academic div.courses ul li.course-img img{
+    width: 70%;
+}
+section.academic div.courses ul li.course-img{
+   padding: 30px 30px;
+}
 
-    section.academic {
-        margin-top: 82px;
-    }
-
+section.academic {
+    margin-top: 82px;
+}
 /*Experiencia Prof*/
 
-    section.experience div.experiencia-box {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+   /*Experiencia Prof*/
 
-    section.experience div.experiencia-box:nth-child(2) {
-        margin-top: 50px;
-       }
+   section.experience div.experiencia-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-    section.experience div.experiencia-box:nth-child(3) {
-    flex-direction: row-reverse;
-   }
-   section.experience div.experiencia-box:nth-child(5) {
-    flex-direction: row-reverse;
+section.experience div.experiencia-box:nth-child(2) {
+    margin-top: 50px;
    }
 
-    section.experience div.info-container{
-        margin: 0 5%;
-    }
+section.experience div.experiencia-box:nth-child(3) {
+flex-direction: row-reverse;
+}
+section.experience div.experiencia-box:nth-child(5) {
+flex-direction: row-reverse;
+}
 
-    section.experience div.experiencia-box img {
-        width: 50%;
-    }
+section.experience div.info-container{
+    margin: 0 5%;
+}
 
- /*Contato*/
+section.experience div.experiencia-box img {
+    width: 50%;
+}
 
-    section.form-contacto div.contact {
-        display: flex;
-        justify-content: center;
-    }
+/*Contato*/
 
-    section.form-contacto div.contact-text {
-        display: flex;
-        flex-direction: column;
-        margin-left: 2%;
-        margin-top: -2%;
-    }
+section.form-contacto div.contact {
+    display: flex;
+    justify-content: center;
+}
 
-    section.form-contacto div.izquierda img.contact-img{
-        display: block;
-        width: 464px;
-        height: 570px;
-    }
+section.form-contacto div.contact-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: -2%;
+}
 
-    section.form-contacto form input{
-        width: 100%;
-    }
+section.form-contacto div.izquierda img.contact-img{
+    display: block;
+    width: 464px;
+    height: 570px;
+}
 
-    section.form-contacto form textarea{
-        width: 100%;
-    }
+section.form-contacto form input{
+    width: 100%;
+}
+
+section.form-contacto form textarea{
+    width: 100%;
+}
 
 /*Footer*/
 
-    section.footer div.rodapie{
-        line-height: 10px;
-        font-size: 16px;
-        font-weight: 500;
-        text-align: center;
-        padding: 1%;
-    }
+section.footer div.rodapie{
+    line-height: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 1%;
+}
 }
 
-@media only screen and (max-width: 567px) {
+@media (min-width: 1440px) {
 
     div.about-container{
 
