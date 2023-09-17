@@ -366,10 +366,10 @@ section.footer div.rodapie{
 
 }
 
-@media (max-width: 699){
+@media only screen and (max-width: 767px){
 }
 
-@media (min-width: 700px) {
+@media only screen and (max-width: 767px) {
 
     .todo{
         margin: 32px 32px;
