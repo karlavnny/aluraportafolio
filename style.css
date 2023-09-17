@@ -369,10 +369,10 @@ section.footer div.rodapie{
 
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 567px){
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 567px) {
 
     .todo{
         margin: 32px 32px;
@@ -446,7 +446,7 @@ section.footer div.rodapie{
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 567px) {
 
 /*main*/
 
@@ -611,7 +611,7 @@ section.footer div.rodapie{
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 567px) {
 
     div.about-container{
 
